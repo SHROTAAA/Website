@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:#0C3B2E;
+    width: 100%;
+    display: flex;
+}
+.left{
+    padding-top: 15vh;
+    padding-left: 7vw;
+    padding-bottom: 20vh;
+    width: 60%;
+    height: 468px;
+    float: left;
+}
+.left h1{
+    font-size: 75px;
+    font-weight: 600px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10vh;
+}
+.left p1{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.date p{
+    margin-top: 50px;
+    color: white;
+    font-size:25px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border: none;
+    color: black;
+    background-color: orange;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10vh;
+}
+
+button:hover{
+    background-color: black;
+    color: orange;
+}
+.right{
+    width: 34%;
+    
+}
+.right img{
+    height: 750px;
+    width: 500px;
+    
+}
+
+
+@media (max-width:458px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,96 @@
+:root{
+    --breed: pink;
+    --name: brown;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font-size: 12px;
+}
+
+.Pixels{
+    width:600px;
+    height: 600px;
+    background-color: var(--breed)
+}
+
+.percent{
+    width: 100%;
+    background-color: brown;
+    
+}
+
+.container{
+    font-size: 24px;
+}
+
+.emphemeral{
+    font-size: 3em;
+    background-color: beige;
+}
+.relative{
+    font-size: 2rem;
+
+}
+
+.Viewportheight{
+    background-color: bisque;
+    height: 100vh;
+}
+
+.Viewportwidth{
+    width: 100vw;
+    background-color: blue;
+
+}
+button{
+    padding: 20px;
+    background-color: var(--name);
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin: 40px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: aquamarine;
+    color: antiquewhite;
+}
+
+.img{
+    background-image: url(./image.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parent{
+    background-color: orange;
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.ChildOne{
+    background-color: pink;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.ChildTwo{
+    background-color: aquamarine;
+}
+.ChildThree{
+    background-color: blanchedalmond;
+}
+
+    

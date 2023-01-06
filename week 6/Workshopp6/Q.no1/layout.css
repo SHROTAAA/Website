@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#6D9773 ;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+
+.left h1{
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:10vh;
+} 
+
+.right p{
+    color: white;
+    font-size:25px;
+    font-weight: lighter;
+    text-align: left;
+    font-family: sans-serif;
+    padding-top: px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    background-color: #6D9773;
+    
+}
+.img{
+    height: 20px;
+    width: 300px;
+}
